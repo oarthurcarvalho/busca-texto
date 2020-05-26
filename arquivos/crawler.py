@@ -13,7 +13,7 @@ def getTexto(sopa):
 def crawl(paginas, profundidade=1):
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-    for i in range(profundidade):
+    for _ in range(profundidade):
 
         novas_paginas = set()
 
